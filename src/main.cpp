@@ -1,9 +1,7 @@
-int factorial(int n)
+#include"iostream"
+using namespace std;
+int main()
 {
-  int result=1;
-  for(int i=1;i<=n;i++)
-  {
-    result *=i;
-  }
-  return result;
-}
+  int n;
+
+
